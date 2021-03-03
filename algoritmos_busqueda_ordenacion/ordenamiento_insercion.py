@@ -11,7 +11,7 @@ def ordenamiento_por_insercion(lista):
             if valor_actual <= lista_ordenada[j]:
                 lista_ordenada.insert(j, valor_actual)
                 break
-            if valor_actual > lista_ordenada[-1]:
+            elif valor_actual > lista_ordenada[-1]:
                 lista_ordenada.append(valor_actual)
                 break
 
